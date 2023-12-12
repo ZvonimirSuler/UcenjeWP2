@@ -1,12 +1,13 @@
 ﻿
-// Ispisi različitih tipova podataka
+//// Ispisi različitih tipova podataka
+
 //Console.WriteLine(7);     //int   
 //Console.WriteLine(true);  //bool
 //Console.Write("Prvi");    //
 //Console.Write("Drugi");   //
 //Console.WriteLine(3.14);  //
 
-// varijabla je prostor u memoriji
+//// varijabla je prostor u memoriji
 
 //Console.Write("Unesi ime: ");
 
@@ -29,18 +30,18 @@
 
 
 
-// program unosi širinu i dužinu prostorije
-// program ispisuje površinu prostorije
+//// program unosi širinu i dužinu prostorije
+//// program ispisuje površinu prostorije
 
-Console.Write("Unesi dužinu prostorije: ");
-float Duzina = float.Parse(Console.ReadLine());
+//Console.Write("Unesi dužinu prostorije: ");
+//float Duzina = float.Parse(Console.ReadLine());
 
-Console.Write("Unesi širinu prostorije: ");
-float Sirina = float.Parse(Console.ReadLine());
+//Console.Write("Unesi širinu prostorije: ");
+//float Sirina = float.Parse(Console.ReadLine());
 
-var Povrsina = Duzina * Sirina;
+//var Povrsina = Duzina * Sirina;
 
-Console.WriteLine(Povrsina);
+//Console.WriteLine(Povrsina);
 
 
 
