@@ -72,6 +72,23 @@ namespace UcenjeCS
             // i++ prvo koristi trenutnu vrijednost pa onda uveća
             Console.WriteLine(i++); //4
             Console.WriteLine(i); //5
+            // i++ prvo uveća onda pa onda koristi
+            Console.WriteLine(++i); //6
+            Console.WriteLine(i); //6
+
+            // SVE VRIJEDI ISTOVJETNO i za dekrement (--)
+
+            int t = 1, l = 2;
+            t = ++t - l; //t =  , l = 
+            l -= t - l; // l = , t = 
+            Console.WriteLine(++t - --l); // 
+
+            // ovo vježbati doma na način
+            // prvo si postaviti zadatak pa ga nakon 15 min rješiti
+
+
+
+
 
 
         }
